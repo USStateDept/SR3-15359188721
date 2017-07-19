@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns0="http://esb.irm.state.gov/SR3-15359188721/xsd/source">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns0:srcdoc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ns0:record>
+            <ns0:id>1</ns0:id>
+            <ns0:str xsi:nil="true"/>
+            <ns0:num>17</ns0:num>
+         </ns0:record>
+         <ns0:record>
+            <ns0:id>2</ns0:id>
+            <ns0:str>str_1</ns0:str>
+            <ns0:num xsi:nil="true"/>
+         </ns0:record>
+         <ns0:record>
+            <ns0:id>3</ns0:id>
+            <ns0:str>str_1</ns0:str>
+            <ns0:num>17</ns0:num>
+         </ns0:record>
+         <ns0:record>
+            <ns0:id>4</ns0:id>
+            <ns0:str xsi:nil="true"/>
+            <ns0:num xsi:nil="true"/>
+         </ns0:record>
+      </ns0:srcdoc>
+   </soapenv:Body>
+</soapenv:Envelope>
