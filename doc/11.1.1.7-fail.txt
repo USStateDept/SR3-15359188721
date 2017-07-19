@@ -1,0 +1,166 @@
+d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\OPatch>set ORACLE_HOME=d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1
+
+d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\OPatch>set JAVA_HOME=c:\programs.x64\Java\jdk1.6.0_141
+
+d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\OPatch>opatch lsinventory -detail
+Invoking OPatch 11.1.0.8.2
+
+Oracle Interim Patch Installer version 11.1.0.8.2
+Copyright (c) 2010, Oracle Corporation.  All rights reserved.
+
+
+Oracle Home       : d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1
+Central Inventory : C:\Program Files\Oracle\Inventory
+   from           : n/a
+OPatch version    : 11.1.0.8.2
+OUI version       : 11.1.0.9.0
+OUI location      : d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\oui
+Log file location : d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\cfgtoollogs\opatch\opatch2017-07-19_06-50-28AM.log
+
+Patch history file: d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\cfgtoollogs\opatch\opatch_history.txt
+
+
+OPatch detects the Middleware Home as "D:\Oracle\Middleware-11.1.1.7"
+
+Lsinventory Output file location : d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\cfgtoollogs\opatch\lsinv\lsinventory2017-07-19_06-50-28AM.txt
+
+--------------------------------------------------------------------------------
+Installed Top-level Products (1):
+
+Oracle Service Bus                                                   11.1.1.7.0
+There are 1 products installed in this Oracle Home.
+
+
+Installed Products (8):
+
+Eclipse Plugins for Oracle Service Bus                               11.1.1.7.0
+Installer SDK Component                                              11.1.0.9.0
+Oracle Fusion Middleware Admin Config                                11.1.1.6.0
+Oracle One-Off Patch Installer                                       11.1.0.8.2
+Oracle Service Bus                                                   11.1.1.7.0
+Oracle Service Bus Server                                            11.1.1.7.0
+Oracle SOA Common Adapters                                           11.1.1.7.0
+Oracle Universal Installer                                           11.1.0.9.0
+There are 8 products installed in this Oracle Home.
+
+
+There are no Interim patches installed in this Oracle Home.
+
+
+--------------------------------------------------------------------------------
+
+OPatch succeeded.
+
+d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\OPatch>cd ..\..\oracle_common\OPatch
+
+d:\Oracle\Middleware-11.1.1.7\oracle_common\OPatch>set ORACLE_HOME=d:\Oracle\Middleware-11.1.1.7\oracle_common
+
+d:\Oracle\Middleware-11.1.1.7\oracle_common\OPatch>opatch lsinventory -detail
+Invoking OPatch 11.1.0.8.2
+
+Oracle Interim Patch Installer version 11.1.0.8.2
+Copyright (c) 2010, Oracle Corporation.  All rights reserved.
+
+
+Oracle Home       : d:\Oracle\Middleware-11.1.1.7\oracle_common
+Central Inventory : C:\Program Files\Oracle\Inventory
+   from           : n/a
+OPatch version    : 11.1.0.8.2
+OUI version       : 11.1.0.9.0
+OUI location      : d:\Oracle\Middleware-11.1.1.7\oracle_common\oui
+Log file location : d:\Oracle\Middleware-11.1.1.7\oracle_common\cfgtoollogs\opatch\opatch2017-07-19_06-51-14AM.log
+
+Patch history file: d:\Oracle\Middleware-11.1.1.7\oracle_common\cfgtoollogs\opatch\opatch_history.txt
+
+
+OPatch detects the Middleware Home as "D:\Oracle\Middleware-11.1.1.7"
+
+Lsinventory Output file location : d:\Oracle\Middleware-11.1.1.7\oracle_common\cfgtoollogs\opatch\lsinv\lsinventory2017-07-19_06-51-14AM.txt
+
+--------------------------------------------------------------------------------
+Installed Top-level Products (2):
+
+Oracle Application Development Framework                             11.1.1.6.0
+Oracle AS Common Toplevel Component                                  11.1.1.2.0
+There are 2 products installed in this Oracle Home.
+
+
+Installed Products (66):
+
+Application Development Framework Runtime                             0.0.0.0.0
+Application Server 11g Common Cloning Component                      11.1.1.7.0
+AS Control UI Core Files                                             11.1.1.7.0
+Enterprise Manager Application Server Integrator Plugin -- Agent Support11.1.1.7.0
+Enterprise Manager Application Server Integrator Plugin -- Management Service Support11.1.1.7.0
+Enterprise Manager Application Server Integrator Plugin -- SOA       11.1.1.7.0
+Enterprise Manager Application Server Plugin -- AS Management Service Support11.1.1.7.0
+Enterprise Manager Application Server Plugin -- Common Management Service Support11.1.1.7.0
+Enterprise Manager Application Server Plugin -- Common Support       11.1.1.7.0
+Enterprise Manager Common Core Files                                 11.1.1.7.0
+Enterprise Manager Common Files                                      10.2.0.5.6
+Enterprise Manager Grid Control Core Files                           11.1.1.7.0
+Enterprise Manager Grid Control Core UI Common Files                 11.1.1.7.0
+Installer SDK Component                                              11.1.0.9.0
+JDEVADF                                                              11.1.1.7.0
+Jython                                                               11.1.1.7.0
+Oracle Application Development Framework                             11.1.1.6.0
+Oracle Application Development Framework JRF                         11.1.1.7.0
+Oracle Application Server Kernel Files JRF                           11.1.1.7.0
+Oracle Apps Trace JRF                                                11.1.1.7.0
+Oracle AS Common Toplevel Component                                  11.1.1.2.0
+Oracle Bali Share                                                    11.1.1.7.0
+Oracle BPM Management Extension                                      11.1.1.7.0
+Oracle Diagnostics Health Test Framework                             11.1.1.7.0
+Oracle Display Fonts                                                 11.1.1.7.0
+Oracle Dynamic Monitoring Service JRF                                11.1.1.7.0
+Oracle Enterprise Manager Application Server WLS Support             11.1.1.7.0
+Oracle Enterprise Manager Application Server WLS Support             11.1.1.7.0
+Oracle Extended Windowing Toolkit                                    11.1.1.7.0
+Oracle Fusion Middleware Common Admin Config                         11.1.1.6.0
+Oracle Help for Java                                                 11.1.1.7.0
+Oracle Help for the Web - Rich Client                                11.1.1.7.0
+Oracle Help for the Web - UIX                                        11.1.1.7.0
+Oracle Help for the Web Shared Library                               11.1.1.7.0
+Oracle Help Share Library                                            11.1.1.7.0
+Oracle Ice Browser                                                   11.1.1.7.0
+Oracle Jakarta                                                       11.1.1.7.0
+Oracle Java Object Cache JRF                                         11.1.1.7.0
+Oracle JFC Extended Windowing Toolkit                                11.1.1.7.0
+Oracle JGroups                                                       11.1.1.7.0
+Oracle JSCH                                                          11.1.1.7.0
+Oracle MySQL Connector                                               11.1.1.7.0
+Oracle One-Off Patch Installer                                       11.1.0.8.2
+Oracle Remote Diagnostic Agent                                       11.1.1.7.0
+Oracle SOA Management                                                11.1.1.7.0
+Oracle UIX                                                           11.1.1.7.0
+Oracle Universal Installer                                           11.1.0.9.0
+Oracle Upgrade Assistant                                             11.1.1.7.0
+Oracle Upgrade Assistant                                             11.1.1.7.0
+Oracle Upgrade Assistant for common                                  11.1.1.7.0
+Oracle WebCenter Portal: Page Editor                                 11.1.1.7.0
+Oracle Webcenter Portal: Portlet Server Minimal                      11.1.1.7.0
+Oracle Webcenter Portal: Skin                                        11.1.1.7.0
+OracleAS AUDIT JRF                                                   11.1.1.7.0
+OracleAS Documentation                                               11.1.1.7.0
+OracleAS HA Powertools                                               11.1.1.7.0
+OracleAS J2EE JRF                                                    11.1.1.7.0
+OracleAS J2EE Thirdparty JRF                                         11.1.1.7.0
+OracleAS JRF                                                         11.1.1.7.0
+OracleAS JRF ApplCore                                                11.1.1.7.0
+OracleAS JRF Datadirect                                              11.1.1.7.0
+OracleAS JRF OWSM                                                    11.1.1.7.0
+OracleAS OPSS                                                        11.1.1.7.0
+OracleAS TopLink JRF                                                 11.1.1.6.0
+OracleAS TopLink Thirdparty JRF                                      11.1.1.6.0
+Repository Creation Utility                                          11.1.1.7.0
+There are 66 products installed in this Oracle Home.
+
+
+There are no Interim patches installed in this Oracle Home.
+
+
+--------------------------------------------------------------------------------
+
+OPatch succeeded.
+
+d:\Oracle\Middleware-11.1.1.7\oracle_common\OPatch>
