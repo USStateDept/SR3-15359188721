@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://esb.irm.state.gov/SR3-15359188721/xsd/dest" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://esb.irm.state.gov/SR3-15359188721/xsd/dest">
+
+    <element name="destdoc">
+    	<complexType>
+    		<sequence>
+    			<element name="entry" maxOccurs="unbounded" minOccurs="0">
+    				<complexType>
+    					<sequence>
+    						<element name="sid" type="int"></element>
+    						<element name="sssss" type="string"
+    							nillable="true">
+    						</element>
+    						<element name="iiiiii" type="integer"
+    							nillable="true">
+    						</element>
+    					</sequence>
+    				</complexType>
+    			</element>
+    		</sequence>
+    	</complexType>
+    </element>
+</schema>

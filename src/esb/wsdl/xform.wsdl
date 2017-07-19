@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://esb.irm.state.gov/SR3-15359188721/wsdl/xform" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="xform" targetNamespace="http://esb.irm.state.gov/SR3-15359188721/wsdl/xform" xmlns:xsd1="http://esb.irm.state.gov/SR3-15359188721/xsd/source" xmlns:xsd2="http://esb.irm.state.gov/SR3-15359188721/xsd/dest">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://esb.irm.state.gov/SR3-15359188721/wsdl/xform">
+      <xsd:element name="NewOperation">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="in" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="NewOperationResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="out" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    	<xsd:import
+    		namespace="http://esb.irm.state.gov/SR3-15359188721/xsd/source"
+    		schemaLocation="../xsd/source.xsd">
+    	</xsd:import>
+    	<xsd:import
+    		namespace="http://esb.irm.state.gov/SR3-15359188721/xsd/dest"
+    		schemaLocation="../xsd/dest.xsd">
+    	</xsd:import></xsd:schema></wsdl:types>
+  <wsdl:message name="NewOperationRequest">
+    <wsdl:part element="xsd1:srcdoc" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="NewOperationResponse">
+    <wsdl:part element="xsd2:destdoc" name="parameters"/>
+  </wsdl:message>
+  <wsdl:portType name="xform">
+    <wsdl:operation name="NewOperation">
+      <wsdl:input message="tns:NewOperationRequest"/>
+      <wsdl:output message="tns:NewOperationResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="xformSOAP" type="tns:xform">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="NewOperation">
+      <soap:operation soapAction="http://esb.irm.state.gov/SR3-15359188721/wsdl/xform/NewOperation"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="xform">
+    <wsdl:port binding="tns:xformSOAP" name="xformSOAP">
+      <soap:address location="http://esb.irm.state.gov/SR3-15359188721/src/esb/proxy/xform"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

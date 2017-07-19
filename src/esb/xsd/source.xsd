@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://esb.irm.state.gov/SR3-15359188721/xsd/source" 
+elementFormDefault="qualified" 
+xmlns="http://www.w3.org/2001/XMLSchema" 
+xmlns:tns="http://esb.irm.state.gov/SR3-15359188721/xsd/source">
+
+    <element name="srcdoc">
+    	<complexType>
+    		<sequence>
+    			<element name="record" maxOccurs="unbounded" minOccurs="0">
+    				<complexType>
+    					<sequence>
+    						<element name="id" type="int"></element>
+    						<element name="str" nillable="true">
+    							<simpleType>
+    								<restriction base="string">
+    									<minLength value="1"></minLength>
+    									<maxLength value="100"></maxLength>
+    								</restriction>
+    							</simpleType>
+    						</element>
+    						<element name="num" type="integer" nillable="true"></element>
+    					</sequence>
+    				</complexType>
+    			</element>
+    		</sequence>
+    	</complexType>
+    </element>
+</schema>
