@@ -1,0 +1,1022 @@
+d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\OPatch\patches\20423630>..\..\opatch apply
+Invoking OPatch 11.1.0.8.2
+
+Oracle Interim Patch Installer version 11.1.0.8.2
+Copyright (c) 2010, Oracle Corporation.  All rights reserved.
+
+
+Oracle Home       : d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1
+Central Inventory : C:\Program Files\Oracle\Inventory
+   from           : n/a
+OPatch version    : 11.1.0.8.2
+OUI version       : 11.1.0.9.0
+OUI location      : d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\oui
+Log file location : d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\cfgtoollogs\opatch\opatch2017-07-19_07-07-02AM.log
+
+Patch history file: d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\cfgtoollogs\opatch\opatch_history.txt
+
+
+OPatch detects the Middleware Home as "D:\Oracle\Middleware-11.1.1.7"
+
+ApplySession applying interim patch '20423630' to OH 'd:\Oracle\Middleware-11.1.1.7\Oracle_OSB1'
+
+Running prerequisite checks...
+
+OPatch detected non-cluster Oracle Home from the inventory and will patch the local system only.
+
+
+Please shutdown Oracle instances running out of this ORACLE_HOME on the local system.
+(Oracle Home = 'd:\Oracle\Middleware-11.1.1.7\Oracle_OSB1')
+
+
+Is the local system ready for patching? [y|n]
+y
+User Responded with: Y
+Backing up files and inventory (not for auto-rollback) for the Oracle Home
+Backing up files affected by the patch '20423630' for restore. This might take a while...
+Backing up files affected by the patch '20423630' for rollback. This might take a while...
+
+Patching component oracle.osb.top, 11.1.1.7.0...
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogger$MessageLoggerInitializer.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogger.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogger$MessageLoggerInitializer.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogger.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogger$MessageLoggerInitializer.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogger.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogger$MessageLoggerInitializer.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogger.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogger$MessageLoggerInitializer.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogger.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizerDetail.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogger$MessageLoggerInitializer.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogger.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogger$MessageLoggerInitializer.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogger.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogger$MessageLoggerInitializer.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogger.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogger$MessageLoggerInitializer.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogger.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogger$MessageLoggerInitializer.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogger.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogger$MessageLoggerInitializer.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogger.class"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer_de.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer_es.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer_fr.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer_fr_CA.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer_it.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer_ja.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer_ko.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer_pt_BR.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer_zh_CN.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer_zh_TW.properties"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftp_transport.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ftp_transport.ear"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftp_transport.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sftp_transport.ear"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\tuxedo_transport.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\tuxedo_transport.ear"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\file_transport.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\file_transport.ear"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mq_transport.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mq_transport.ear"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\mqconnection.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ejbtransport.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\ejbtransport.ear"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jcatransport.ear"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\bpel10gtransport.ear"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\bpel10gtransport.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\emailtransport.ear"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\emailtransport.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejb_transport.ear"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\jejb_transport.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sb_transport.ear"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\sb_transport.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\flow_transport.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\transports\flow_transport.ear"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\sb-transports-main.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\sb-transports-http-wls.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\sbTestFwk.ear"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\sb-kernel-resources.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\sb-kernel-api.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\sb-kernel-impl.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\sb-kernel-common.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\sb-kernel-wls.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\ws-core.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\modules\com.bea.alsb.alertfwk.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\modules\com.bea.alsb.configfwk-wls.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\modules\com.bea.alsb.owsm.sdkadapter.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\modules\com.bea.alsb.platform-wls.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\modules\com.bea.alsb.platform.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\modules\com.bea.alsb.reporting.impl.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\modules\com.bea.alsb.resources.globalsettings.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\modules\com.bea.alsb.resources.jca.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\modules\com.bea.alsb.resources.xslt.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\modules\com.bea.alsb.resources.xquery.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\modules\com.bea.alsb.security.api.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\modules\com.bea.alsb.security-wls.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\modules\com.bea.alsb.utils.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\modules\com.bea.alsb.wsil.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\modules\com.bea.common.configfwk_1.7.0.0.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\modules\com.bea.core.xquery.xmlbeans-interop_1.7.0.0.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\modules\com.bea.wli.core.mflengine_1.6.0.0.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\eclipse150\plugins\com.bea.alsb.core_1.5.0\alsbcore.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\eclipse150\plugins\com.bea.alsb.libs_1.5.0\META-INF\MANIFEST.MF"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\common\owsmInitializer.ear"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\stages\stage-utils.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\sbconsoleEar\webapp\WEB-INF\lib\sbconsole.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\external\jca-binding-osb.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\external\adapters\DBAdapter.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\external\adapters\fileAdapter.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\lib\external\adapters\ftpAdapter.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\soa\connectors\DbAdapter.rar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\soa\connectors\FileAdapter.rar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\soa\connectors\FtpAdapter.rar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\soa\connectors\was\DbAdapter.rar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\soa\connectors\was\FileAdapter.rar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\soa\connectors\was\FtpAdapter.rar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\soa\modules\oracle.soa.adapter_11.1.1\salesforce.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\soa\modules\oracle.soa.adapter_11.1.1\jca-binding-api.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\soa\modules\oracle.soa.common.adapters_11.1.1\oracle.soa.common.adapters.jar"
+Copying file to "d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\harvester\client.harvester-osb.jar"
+ApplySession adding interim patch '20423630' to inventory
+
+Verifying the update...
+Inventory check OK: Patch ID 20423630 is registered in Oracle Home inventory with proper meta-data.
+Files check OK: Files from Patch ID 20423630 are present in Oracle Home.
+
+The local system has been patched and can be restarted.
+
+
+OPatch succeeded.
+
+d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\OPatch\patches\20423630>cd ..
+
+d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\OPatch\patches>cd ..
+
+d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\OPatch>opatch lsinventory -detail
+Invoking OPatch 11.1.0.8.2
+
+Oracle Interim Patch Installer version 11.1.0.8.2
+Copyright (c) 2010, Oracle Corporation.  All rights reserved.
+
+
+Oracle Home       : d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1
+Central Inventory : C:\Program Files\Oracle\Inventory
+   from           : n/a
+OPatch version    : 11.1.0.8.2
+OUI version       : 11.1.0.9.0
+OUI location      : d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\oui
+Log file location : d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\cfgtoollogs\opatch\opatch2017-07-19_07-07-49AM.log
+
+Patch history file: d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\cfgtoollogs\opatch\opatch_history.txt
+
+
+OPatch detects the Middleware Home as "D:\Oracle\Middleware-11.1.1.7"
+
+Lsinventory Output file location : d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\cfgtoollogs\opatch\lsinv\lsinventory2017-07-19_07-07-49AM.txt
+
+--------------------------------------------------------------------------------
+Installed Top-level Products (1):
+
+Oracle Service Bus                                                   11.1.1.7.0
+There are 1 products installed in this Oracle Home.
+
+
+Installed Products (8):
+
+Eclipse Plugins for Oracle Service Bus                               11.1.1.7.0
+Installer SDK Component                                              11.1.0.9.0
+Oracle Fusion Middleware Admin Config                                11.1.1.6.0
+Oracle One-Off Patch Installer                                       11.1.0.8.2
+Oracle Service Bus                                                   11.1.1.7.0
+Oracle Service Bus Server                                            11.1.1.7.0
+Oracle SOA Common Adapters                                           11.1.1.7.0
+Oracle Universal Installer                                           11.1.0.9.0
+There are 8 products installed in this Oracle Home.
+
+
+Interim patches (1) :
+
+Patch  20423630     : applied on Wed Jul 19 07:07:36 EDT 2017
+Unique Patch ID:  18592734
+   Created on 4 Mar 2015, 23:29:56 hrs PST8PDT
+   Bugs fixed:
+     16163356, 18692139, 16000058, 19725054, 19725384, 20207998, 16204662
+     17372981, 12795591, 14742977, 18072193, 18039475, 14670647, 17168108
+     19157429, 17926906, 19026201, 17625683, 17574724, 17512987, 18350067
+     18304849, 16388573, 17951696, 18561459, 17444378, 18650022, 17033356
+     17958419, 17513089, 18593833, 19150484, 17588283, 16871368, 18091464
+     17870661, 17572414, 17616557, 17473340, 16590850, 16800322, 16233863
+     20172897, 16986497, 17227427, 18224392, 17386676, 16769021, 16291020
+     15985507, 17493493, 15989835, 16669704, 17731550, 16516838, 18073828
+     12361881, 16170842, 15912511, 17849237, 19054996, 16533809, 18806008
+     17088137, 16096932, 16353442, 17616602, 17825207, 18615263, 18968424
+     16724475, 14586014, 16857370, 17989395, 16205232, 19155961, 16983667
+     17794348, 14504134, 14634805, 17849939, 17508340, 18055684, 17973293
+     17217455, 17616475, 17250625, 9288010, 17783329, 18884589, 16603724
+     18348323, 18174770, 18184896, 19728188, 19260944, 17504450, 17453527
+     15966904, 16091796, 18652485, 17616987, 18431008, 17795445, 18908551
+     17958214, 19728225, 18450293, 15854995, 18239176, 19346971, 17493447
+     17475274, 18111304, 17525771, 16626159, 16620088, 16409753, 17819782, 17512963
+   Files Touched:
+     FileTransportLogger$MessageLoggerInitializer.class --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogger$MessageLoggerInitializer.class
+     FileTransportLogger.class --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogger.class
+     FileTransportLogLocalizer.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer.properties
+     FileTransportLogLocalizerDetail.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail.properties
+     FileTransportLogLocalizerDetail_de.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail_de.properties
+     FileTransportLogLocalizerDetail_es.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail_es.properties
+     FileTransportLogLocalizerDetail_fr.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail_fr.properties
+     FileTransportLogLocalizerDetail_fr_CA.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail_fr_CA.properties
+     FileTransportLogLocalizerDetail_it.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail_it.properties
+     FileTransportLogLocalizerDetail_ja.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail_ja.properties
+     FileTransportLogLocalizerDetail_ko.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail_ko.properties
+     FileTransportLogLocalizerDetail_pt_BR.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail_pt_BR.properties
+     FileTransportLogLocalizerDetail_zh_CN.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail_zh_CN.properties
+     FileTransportLogLocalizerDetail_zh_TW.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizerDetail_zh_TW.properties
+     FileTransportLogLocalizer_de.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer_de.properties
+     FileTransportLogLocalizer_es.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer_es.properties
+     FileTransportLogLocalizer_fr.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer_fr.properties
+     FileTransportLogLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer_fr_CA.properties
+     FileTransportLogLocalizer_it.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer_it.properties
+     FileTransportLogLocalizer_ja.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer_ja.properties
+     FileTransportLogLocalizer_ko.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer_ko.properties
+     FileTransportLogLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer_pt_BR.properties
+     FileTransportLogLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer_zh_CN.properties
+     FileTransportLogLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\FileTransportLogLocalizer_zh_TW.properties
+     TransportTextLocalizer.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer.properties
+     TransportTextLocalizer_de.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer_de.properties
+     TransportTextLocalizer_es.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer_es.properties
+     TransportTextLocalizer_fr.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer_fr.properties
+     TransportTextLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer_fr_CA.properties
+     TransportTextLocalizer_it.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer_it.properties
+     TransportTextLocalizer_ja.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer_ja.properties
+     TransportTextLocalizer_ko.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer_ko.properties
+     TransportTextLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer_pt_BR.properties
+     TransportTextLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer_zh_CN.properties
+     TransportTextLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\filetransport-l10n\com\bea\wli\sb\transports\file\TransportTextLocalizer_zh_TW.properties
+     FTPTransportLogger$MessageLoggerInitializer.class --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogger$MessageLoggerInitializer.class
+     FTPTransportLogger.class --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogger.class
+     FTPTransportLogLocalizer.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer.properties
+     FTPTransportLogLocalizerDetail.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail.properties
+     FTPTransportLogLocalizerDetail_de.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail_de.properties
+     FTPTransportLogLocalizerDetail_es.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail_es.properties
+     FTPTransportLogLocalizerDetail_fr.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail_fr.properties
+     FTPTransportLogLocalizerDetail_fr_CA.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail_fr_CA.properties
+     FTPTransportLogLocalizerDetail_it.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail_it.properties
+     FTPTransportLogLocalizerDetail_ja.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail_ja.properties
+     FTPTransportLogLocalizerDetail_ko.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail_ko.properties
+     FTPTransportLogLocalizerDetail_pt_BR.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail_pt_BR.properties
+     FTPTransportLogLocalizerDetail_zh_CN.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail_zh_CN.properties
+     FTPTransportLogLocalizerDetail_zh_TW.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizerDetail_zh_TW.properties
+     FTPTransportLogLocalizer_de.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer_de.properties
+     FTPTransportLogLocalizer_es.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer_es.properties
+     FTPTransportLogLocalizer_fr.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer_fr.properties
+     FTPTransportLogLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer_fr_CA.properties
+     FTPTransportLogLocalizer_it.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer_it.properties
+     FTPTransportLogLocalizer_ja.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer_ja.properties
+     FTPTransportLogLocalizer_ko.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer_ko.properties
+     FTPTransportLogLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer_pt_BR.properties
+     FTPTransportLogLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer_zh_CN.properties
+     FTPTransportLogLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\FTPTransportLogLocalizer_zh_TW.properties
+     TransportTextLocalizer.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer.properties
+     TransportTextLocalizer_de.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer_de.properties
+     TransportTextLocalizer_es.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer_es.properties
+     TransportTextLocalizer_fr.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer_fr.properties
+     TransportTextLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer_fr_CA.properties
+     TransportTextLocalizer_it.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer_it.properties
+     TransportTextLocalizer_ja.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer_ja.properties
+     TransportTextLocalizer_ko.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer_ko.properties
+     TransportTextLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer_pt_BR.properties
+     TransportTextLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer_zh_CN.properties
+     TransportTextLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\ftptransport-l10n\com\bea\wli\sb\transports\ftp\TransportTextLocalizer_zh_TW.properties
+     SFTPTransportLogger$MessageLoggerInitializer.class --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogger$MessageLoggerInitializer.class
+     SFTPTransportLogger.class --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogger.class
+     SFTPTransportLogLocalizer.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer.properties
+     SFTPTransportLogLocalizerDetail.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail.properties
+     SFTPTransportLogLocalizerDetail_de.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail_de.properties
+     SFTPTransportLogLocalizerDetail_es.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail_es.properties
+     SFTPTransportLogLocalizerDetail_fr.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail_fr.properties
+     SFTPTransportLogLocalizerDetail_fr_CA.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail_fr_CA.properties
+     SFTPTransportLogLocalizerDetail_it.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail_it.properties
+     SFTPTransportLogLocalizerDetail_ja.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail_ja.properties
+     SFTPTransportLogLocalizerDetail_ko.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail_ko.properties
+     SFTPTransportLogLocalizerDetail_pt_BR.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail_pt_BR.properties
+     SFTPTransportLogLocalizerDetail_zh_CN.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail_zh_CN.properties
+     SFTPTransportLogLocalizerDetail_zh_TW.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizerDetail_zh_TW.properties
+     SFTPTransportLogLocalizer_de.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer_de.properties
+     SFTPTransportLogLocalizer_es.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer_es.properties
+     SFTPTransportLogLocalizer_fr.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer_fr.properties
+     SFTPTransportLogLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer_fr_CA.properties
+     SFTPTransportLogLocalizer_it.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer_it.properties
+     SFTPTransportLogLocalizer_ja.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer_ja.properties
+     SFTPTransportLogLocalizer_ko.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer_ko.properties
+     SFTPTransportLogLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer_pt_BR.properties
+     SFTPTransportLogLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer_zh_CN.properties
+     SFTPTransportLogLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\SFTPTransportLogLocalizer_zh_TW.properties
+     TransportTextLocalizer.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer.properties
+     TransportTextLocalizer_de.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer_de.properties
+     TransportTextLocalizer_es.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer_es.properties
+     TransportTextLocalizer_fr.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer_fr.properties
+     TransportTextLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer_fr_CA.properties
+     TransportTextLocalizer_it.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer_it.properties
+     TransportTextLocalizer_ja.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer_ja.properties
+     TransportTextLocalizer_ko.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer_ko.properties
+     TransportTextLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer_pt_BR.properties
+     TransportTextLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer_zh_CN.properties
+     TransportTextLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\sftptransport-l10n\com\bea\wli\sb\transports\sftp\TransportTextLocalizer_zh_TW.properties
+     JEJBTransportLogger$MessageLoggerInitializer.class --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogger$MessageLoggerInitializer.class
+     JEJBTransportLogger.class --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogger.class
+     JEJBTransportLogLocalizer.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer.properties
+     JEJBTransportLogLocalizerDetail.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail.properties
+     JEJBTransportLogLocalizerDetail_de.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail_de.properties
+     JEJBTransportLogLocalizerDetail_es.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail_es.properties
+     JEJBTransportLogLocalizerDetail_fr.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail_fr.properties
+     JEJBTransportLogLocalizerDetail_fr_CA.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail_fr_CA.properties
+     JEJBTransportLogLocalizerDetail_it.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail_it.properties
+     JEJBTransportLogLocalizerDetail_ja.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail_ja.properties
+     JEJBTransportLogLocalizerDetail_ko.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail_ko.properties
+     JEJBTransportLogLocalizerDetail_pt_BR.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail_pt_BR.properties
+     JEJBTransportLogLocalizerDetail_zh_CN.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail_zh_CN.properties
+     JEJBTransportLogLocalizerDetail_zh_TW.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizerDetail_zh_TW.properties
+     JEJBTransportLogLocalizer_de.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer_de.properties
+     JEJBTransportLogLocalizer_es.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer_es.properties
+     JEJBTransportLogLocalizer_fr.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer_fr.properties
+     JEJBTransportLogLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer_fr_CA.properties
+     JEJBTransportLogLocalizer_it.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer_it.properties
+     JEJBTransportLogLocalizer_ja.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer_ja.properties
+     JEJBTransportLogLocalizer_ko.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer_ko.properties
+     JEJBTransportLogLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer_pt_BR.properties
+     JEJBTransportLogLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer_zh_CN.properties
+     JEJBTransportLogLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\JEJBTransportLogLocalizer_zh_TW.properties
+     TransportTextLocalizer.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer.properties
+     TransportTextLocalizer_de.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer_de.properties
+     TransportTextLocalizer_es.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer_es.properties
+     TransportTextLocalizer_fr.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer_fr.properties
+     TransportTextLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer_fr_CA.properties
+     TransportTextLocalizer_it.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer_it.properties
+     TransportTextLocalizer_ja.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer_ja.properties
+     TransportTextLocalizer_ko.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer_ko.properties
+     TransportTextLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer_pt_BR.properties
+     TransportTextLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer_zh_CN.properties
+     TransportTextLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\jejbtransport-l10n\com\bea\wli\sb\transports\jejb\TransportTextLocalizer_zh_TW.properties
+     DspTransportMessagesLogger$MessageLoggerInitializer.class --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogger$MessageLoggerInitializer.class
+     DspTransportMessagesLogger.class --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogger.class
+     DspTransportMessagesLogLocalizer.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer.properties
+     DspTransportMessagesLogLocalizerDetail.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizerDetail.properties
+     DspTransportMessagesLogLocalizer_de.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer_de.properties
+     DspTransportMessagesLogLocalizer_es.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer_es.properties
+     DspTransportMessagesLogLocalizer_fr.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer_fr.properties
+     DspTransportMessagesLogLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer_fr_CA.properties
+     DspTransportMessagesLogLocalizer_it.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer_it.properties
+     DspTransportMessagesLogLocalizer_ja.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer_ja.properties
+     DspTransportMessagesLogLocalizer_ko.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer_ko.properties
+     DspTransportMessagesLogLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer_pt_BR.properties
+     DspTransportMessagesLogLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer_zh_CN.properties
+     DspTransportMessagesLogLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportMessagesLogLocalizer_zh_TW.properties
+     DspTransportTextMessagesTextLocalizer.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer.properties
+     DspTransportTextMessagesTextLocalizer_de.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer_de.properties
+     DspTransportTextMessagesTextLocalizer_es.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer_es.properties
+     DspTransportTextMessagesTextLocalizer_fr.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer_fr.properties
+     DspTransportTextMessagesTextLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer_fr_CA.properties
+     DspTransportTextMessagesTextLocalizer_it.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer_it.properties
+     DspTransportTextMessagesTextLocalizer_ja.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer_ja.properties
+     DspTransportTextMessagesTextLocalizer_ko.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer_ko.properties
+     DspTransportTextMessagesTextLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer_pt_BR.properties
+     DspTransportTextMessagesTextLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer_zh_CN.properties
+     DspTransportTextMessagesTextLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\aldsp_transport-l10n\com\bea\dsp\transport\sb\DspTransportTextMessagesTextLocalizer_zh_TW.properties
+     JCATransportLogger$MessageLoggerInitializer.class --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogger$MessageLoggerInitializer.class
+     JCATransportLogger.class --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogger.class
+     JCATransportLogLocalizer.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer.properties
+     JCATransportLogLocalizerDetail.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail.properties
+     JCATransportLogLocalizerDetail_de.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail_de.properties
+     JCATransportLogLocalizerDetail_es.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail_es.properties
+     JCATransportLogLocalizerDetail_fr.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail_fr.properties
+     JCATransportLogLocalizerDetail_fr_CA.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail_fr_CA.properties
+     JCATransportLogLocalizerDetail_it.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail_it.properties
+     JCATransportLogLocalizerDetail_ja.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail_ja.properties
+     JCATransportLogLocalizerDetail_ko.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail_ko.properties
+     JCATransportLogLocalizerDetail_pt_BR.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail_pt_BR.properties
+     JCATransportLogLocalizerDetail_zh_CN.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail_zh_CN.properties
+     JCATransportLogLocalizerDetail_zh_TW.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizerDetail_zh_TW.properties
+     JCATransportLogLocalizer_de.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer_de.properties
+     JCATransportLogLocalizer_es.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer_es.properties
+     JCATransportLogLocalizer_fr.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer_fr.properties
+     JCATransportLogLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer_fr_CA.properties
+     JCATransportLogLocalizer_it.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer_it.properties
+     JCATransportLogLocalizer_ja.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer_ja.properties
+     JCATransportLogLocalizer_ko.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer_ko.properties
+     JCATransportLogLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer_pt_BR.properties
+     JCATransportLogLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer_zh_CN.properties
+     JCATransportLogLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\JCATransportLogLocalizer_zh_TW.properties
+     TransportTextLocalizer.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer.properties
+     TransportTextLocalizer_de.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer_de.properties
+     TransportTextLocalizer_es.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer_es.properties
+     TransportTextLocalizer_fr.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer_fr.properties
+     TransportTextLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer_fr_CA.properties
+     TransportTextLocalizer_it.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer_it.properties
+     TransportTextLocalizer_ja.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer_ja.properties
+     TransportTextLocalizer_ko.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer_ko.properties
+     TransportTextLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer_pt_BR.properties
+     TransportTextLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer_zh_CN.properties
+     TransportTextLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\jcatransport-l10n\com\bea\wli\sb\transports\jca\TransportTextLocalizer_zh_TW.properties
+     MQConnectionResourceLogger$MessageLoggerInitializer.class --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogger$MessageLoggerInitializer.class
+     MQConnectionResourceLogger.class --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogger.class
+     MQConnectionResourceLogLocalizer.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer.properties
+     MQConnectionResourceLogLocalizerDetail.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail.properties
+     MQConnectionResourceLogLocalizerDetail_de.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail_de.properties
+     MQConnectionResourceLogLocalizerDetail_es.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail_es.properties
+     MQConnectionResourceLogLocalizerDetail_fr.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail_fr.properties
+     MQConnectionResourceLogLocalizerDetail_fr_CA.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail_fr_CA.properties
+     MQConnectionResourceLogLocalizerDetail_it.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail_it.properties
+     MQConnectionResourceLogLocalizerDetail_ja.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail_ja.properties
+     MQConnectionResourceLogLocalizerDetail_ko.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail_ko.properties
+     MQConnectionResourceLogLocalizerDetail_pt_BR.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail_pt_BR.properties
+     MQConnectionResourceLogLocalizerDetail_zh_CN.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail_zh_CN.properties
+     MQConnectionResourceLogLocalizerDetail_zh_TW.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizerDetail_zh_TW.properties
+     MQConnectionResourceLogLocalizer_de.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer_de.properties
+     MQConnectionResourceLogLocalizer_es.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer_es.properties
+     MQConnectionResourceLogLocalizer_fr.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer_fr.properties
+     MQConnectionResourceLogLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer_fr_CA.properties
+     MQConnectionResourceLogLocalizer_it.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer_it.properties
+     MQConnectionResourceLogLocalizer_ja.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer_ja.properties
+     MQConnectionResourceLogLocalizer_ko.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer_ko.properties
+     MQConnectionResourceLogLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer_pt_BR.properties
+     MQConnectionResourceLogLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer_zh_CN.properties
+     MQConnectionResourceLogLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionResourceLogLocalizer_zh_TW.properties
+     MQConnectionTextLocalizer.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer.properties
+     MQConnectionTextLocalizer_de.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer_de.properties
+     MQConnectionTextLocalizer_es.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer_es.properties
+     MQConnectionTextLocalizer_fr.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer_fr.properties
+     MQConnectionTextLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer_fr_CA.properties
+     MQConnectionTextLocalizer_it.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer_it.properties
+     MQConnectionTextLocalizer_ja.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer_ja.properties
+     MQConnectionTextLocalizer_ko.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer_ko.properties
+     MQConnectionTextLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer_pt_BR.properties
+     MQConnectionTextLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer_zh_CN.properties
+     MQConnectionTextLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\mqconnection-l10n\com\bea\wli\sb\mqconnection\MQConnectionTextLocalizer_zh_TW.properties
+     MQTransportLogger$MessageLoggerInitializer.class --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogger$MessageLoggerInitializer.class
+     MQTransportLogger.class --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogger.class
+     MQTransportLogLocalizer.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer.properties
+     MQTransportLogLocalizerDetail.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail.properties
+     MQTransportLogLocalizerDetail_de.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail_de.properties
+     MQTransportLogLocalizerDetail_es.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail_es.properties
+     MQTransportLogLocalizerDetail_fr.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail_fr.properties
+     MQTransportLogLocalizerDetail_fr_CA.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail_fr_CA.properties
+     MQTransportLogLocalizerDetail_it.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail_it.properties
+     MQTransportLogLocalizerDetail_ja.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail_ja.properties
+     MQTransportLogLocalizerDetail_ko.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail_ko.properties
+     MQTransportLogLocalizerDetail_pt_BR.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail_pt_BR.properties
+     MQTransportLogLocalizerDetail_zh_CN.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail_zh_CN.properties
+     MQTransportLogLocalizerDetail_zh_TW.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizerDetail_zh_TW.properties
+     MQTransportLogLocalizer_de.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer_de.properties
+     MQTransportLogLocalizer_es.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer_es.properties
+     MQTransportLogLocalizer_fr.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer_fr.properties
+     MQTransportLogLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer_fr_CA.properties
+     MQTransportLogLocalizer_it.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer_it.properties
+     MQTransportLogLocalizer_ja.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer_ja.properties
+     MQTransportLogLocalizer_ko.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer_ko.properties
+     MQTransportLogLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer_pt_BR.properties
+     MQTransportLogLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer_zh_CN.properties
+     MQTransportLogLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\MQTransportLogLocalizer_zh_TW.properties
+     TransportTextLocalizer.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer.properties
+     TransportTextLocalizer_de.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer_de.properties
+     TransportTextLocalizer_es.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer_es.properties
+     TransportTextLocalizer_fr.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer_fr.properties
+     TransportTextLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer_fr_CA.properties
+     TransportTextLocalizer_it.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer_it.properties
+     TransportTextLocalizer_ja.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer_ja.properties
+     TransportTextLocalizer_ko.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer_ko.properties
+     TransportTextLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer_pt_BR.properties
+     TransportTextLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer_zh_CN.properties
+     TransportTextLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\mqtransport-l10n\com\bea\wli\sb\transports\mq\TransportTextLocalizer_zh_TW.properties
+     SBTransportLogger$MessageLoggerInitializer.class --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogger$MessageLoggerInitializer.class
+     SBTransportLogger.class --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogger.class
+     SBTransportLogLocalizer.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer.properties
+     SBTransportLogLocalizerDetail.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail.properties
+     SBTransportLogLocalizerDetail_de.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail_de.properties
+     SBTransportLogLocalizerDetail_es.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail_es.properties
+     SBTransportLogLocalizerDetail_fr.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail_fr.properties
+     SBTransportLogLocalizerDetail_fr_CA.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail_fr_CA.properties
+     SBTransportLogLocalizerDetail_it.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail_it.properties
+     SBTransportLogLocalizerDetail_ja.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail_ja.properties
+     SBTransportLogLocalizerDetail_ko.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail_ko.properties
+     SBTransportLogLocalizerDetail_pt_BR.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail_pt_BR.properties
+     SBTransportLogLocalizerDetail_zh_CN.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail_zh_CN.properties
+     SBTransportLogLocalizerDetail_zh_TW.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizerDetail_zh_TW.properties
+     SBTransportLogLocalizer_de.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer_de.properties
+     SBTransportLogLocalizer_es.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer_es.properties
+     SBTransportLogLocalizer_fr.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer_fr.properties
+     SBTransportLogLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer_fr_CA.properties
+     SBTransportLogLocalizer_it.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer_it.properties
+     SBTransportLogLocalizer_ja.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer_ja.properties
+     SBTransportLogLocalizer_ko.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer_ko.properties
+     SBTransportLogLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer_pt_BR.properties
+     SBTransportLogLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer_zh_CN.properties
+     SBTransportLogLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\SBTransportLogLocalizer_zh_TW.properties
+     TransportTextLocalizer.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer.properties
+     TransportTextLocalizer_de.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer_de.properties
+     TransportTextLocalizer_es.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer_es.properties
+     TransportTextLocalizer_fr.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer_fr.properties
+     TransportTextLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer_fr_CA.properties
+     TransportTextLocalizer_it.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer_it.properties
+     TransportTextLocalizer_ja.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer_ja.properties
+     TransportTextLocalizer_ko.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer_ko.properties
+     TransportTextLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer_pt_BR.properties
+     TransportTextLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer_zh_CN.properties
+     TransportTextLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\sbtransport-l10n\com\bea\wli\sb\transports\sb\TransportTextLocalizer_zh_TW.properties
+     SOATransportLogger$MessageLoggerInitializer.class --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogger$MessageLoggerInitializer.class
+     SOATransportLogger.class --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogger.class
+     SOATransportLogLocalizer.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer.properties
+     SOATransportLogLocalizerDetail.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail.properties
+     SOATransportLogLocalizerDetail_de.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail_de.properties
+     SOATransportLogLocalizerDetail_es.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail_es.properties
+     SOATransportLogLocalizerDetail_fr.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail_fr.properties
+     SOATransportLogLocalizerDetail_fr_CA.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail_fr_CA.properties
+     SOATransportLogLocalizerDetail_it.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail_it.properties
+     SOATransportLogLocalizerDetail_ja.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail_ja.properties
+     SOATransportLogLocalizerDetail_ko.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail_ko.properties
+     SOATransportLogLocalizerDetail_pt_BR.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail_pt_BR.properties
+     SOATransportLogLocalizerDetail_zh_CN.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail_zh_CN.properties
+     SOATransportLogLocalizerDetail_zh_TW.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizerDetail_zh_TW.properties
+     SOATransportLogLocalizer_de.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer_de.properties
+     SOATransportLogLocalizer_es.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer_es.properties
+     SOATransportLogLocalizer_fr.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer_fr.properties
+     SOATransportLogLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer_fr_CA.properties
+     SOATransportLogLocalizer_it.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer_it.properties
+     SOATransportLogLocalizer_ja.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer_ja.properties
+     SOATransportLogLocalizer_ko.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer_ko.properties
+     SOATransportLogLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer_pt_BR.properties
+     SOATransportLogLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer_zh_CN.properties
+     SOATransportLogLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportLogLocalizer_zh_TW.properties
+     SOATransportMessagesTextLocalizer.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer.properties
+     SOATransportMessagesTextLocalizer_de.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer_de.properties
+     SOATransportMessagesTextLocalizer_es.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer_es.properties
+     SOATransportMessagesTextLocalizer_fr.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer_fr.properties
+     SOATransportMessagesTextLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer_fr_CA.properties
+     SOATransportMessagesTextLocalizer_it.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer_it.properties
+     SOATransportMessagesTextLocalizer_ja.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer_ja.properties
+     SOATransportMessagesTextLocalizer_ko.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer_ko.properties
+     SOATransportMessagesTextLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer_pt_BR.properties
+     SOATransportMessagesTextLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer_zh_CN.properties
+     SOATransportMessagesTextLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\soatransport-l10n\com\bea\wli\sb\transports\soa\SOATransportMessagesTextLocalizer_zh_TW.properties
+     WsTransportLogger$MessageLoggerInitializer.class --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogger$MessageLoggerInitializer.class
+     WsTransportLogger.class --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogger.class
+     WsTransportLogLocalizer.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer.properties
+     WsTransportLogLocalizerDetail.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail.properties
+     WsTransportLogLocalizerDetail_de.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail_de.properties
+     WsTransportLogLocalizerDetail_es.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail_es.properties
+     WsTransportLogLocalizerDetail_fr.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail_fr.properties
+     WsTransportLogLocalizerDetail_fr_CA.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail_fr_CA.properties
+     WsTransportLogLocalizerDetail_it.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail_it.properties
+     WsTransportLogLocalizerDetail_ja.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail_ja.properties
+     WsTransportLogLocalizerDetail_ko.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail_ko.properties
+     WsTransportLogLocalizerDetail_pt_BR.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail_pt_BR.properties
+     WsTransportLogLocalizerDetail_zh_CN.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail_zh_CN.properties
+     WsTransportLogLocalizerDetail_zh_TW.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizerDetail_zh_TW.properties
+     WsTransportLogLocalizer_de.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer_de.properties
+     WsTransportLogLocalizer_es.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer_es.properties
+     WsTransportLogLocalizer_fr.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer_fr.properties
+     WsTransportLogLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer_fr_CA.properties
+     WsTransportLogLocalizer_it.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer_it.properties
+     WsTransportLogLocalizer_ja.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer_ja.properties
+     WsTransportLogLocalizer_ko.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer_ko.properties
+     WsTransportLogLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer_pt_BR.properties
+     WsTransportLogLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer_zh_CN.properties
+     WsTransportLogLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\WsTransportLogLocalizer_zh_TW.properties
+     TransportTextLocalizer.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer.properties
+     TransportTextLocalizer_de.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer_de.properties
+     TransportTextLocalizer_es.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer_es.properties
+     TransportTextLocalizer_fr.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer_fr.properties
+     TransportTextLocalizer_fr_CA.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer_fr_CA.properties
+     TransportTextLocalizer_it.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer_it.properties
+     TransportTextLocalizer_ja.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer_ja.properties
+     TransportTextLocalizer_ko.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer_ko.properties
+     TransportTextLocalizer_pt_BR.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer_pt_BR.properties
+     TransportTextLocalizer_zh_CN.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer_zh_CN.properties
+     TransportTextLocalizer_zh_TW.properties --> ORACLE_HOME\lib\transports\wstransport-l10n\com\bea\wli\sb\transports\ws\TransportTextLocalizer_zh_TW.properties
+     ftp_transport.jar --> ORACLE_HOME\lib\transports\ftp_transport.jar
+     ftp_transport.ear --> ORACLE_HOME\lib\transports\ftp_transport.ear
+     sftp_transport.jar --> ORACLE_HOME\lib\transports\sftp_transport.jar
+     sftp_transport.ear --> ORACLE_HOME\lib\transports\sftp_transport.ear
+     tuxedo_transport.jar --> ORACLE_HOME\lib\transports\tuxedo_transport.jar
+     tuxedo_transport.ear --> ORACLE_HOME\lib\transports\tuxedo_transport.ear
+     file_transport.jar --> ORACLE_HOME\lib\transports\file_transport.jar
+     file_transport.ear --> ORACLE_HOME\lib\transports\file_transport.ear
+     mq_transport.jar --> ORACLE_HOME\lib\transports\mq_transport.jar
+     mq_transport.ear --> ORACLE_HOME\lib\transports\mq_transport.ear
+     mqconnection.jar --> ORACLE_HOME\lib\transports\mqconnection.jar
+     ejbtransport.jar --> ORACLE_HOME\lib\transports\ejbtransport.jar
+     ejbtransport.ear --> ORACLE_HOME\lib\transports\ejbtransport.ear
+     jcatransport.jar --> ORACLE_HOME\lib\transports\jcatransport.jar
+     jcatransport.ear --> ORACLE_HOME\lib\transports\jcatransport.ear
+     bpel10gtransport.ear --> ORACLE_HOME\lib\transports\bpel10gtransport.ear
+     bpel10gtransport.jar --> ORACLE_HOME\lib\transports\bpel10gtransport.jar
+     emailtransport.ear --> ORACLE_HOME\lib\transports\emailtransport.ear
+     emailtransport.jar --> ORACLE_HOME\lib\transports\emailtransport.jar
+     jejb_transport.ear --> ORACLE_HOME\lib\transports\jejb_transport.ear
+     jejb_transport.jar --> ORACLE_HOME\lib\transports\jejb_transport.jar
+     sb_transport.ear --> ORACLE_HOME\lib\transports\sb_transport.ear
+     sb_transport.jar --> ORACLE_HOME\lib\transports\sb_transport.jar
+     flow_transport.jar --> ORACLE_HOME\lib\transports\flow_transport.jar
+     flow_transport.ear --> ORACLE_HOME\lib\transports\flow_transport.ear
+     sb-transports-main.jar --> ORACLE_HOME\lib\sb-transports-main.jar
+     sb-transports-http-wls.jar --> ORACLE_HOME\lib\sb-transports-http-wls.jar
+     sbTestFwk.ear --> ORACLE_HOME\lib\sbTestFwk.ear
+     sb-kernel-resources.jar --> ORACLE_HOME\lib\sb-kernel-resources.jar
+     sb-kernel-api.jar --> ORACLE_HOME\lib\sb-kernel-api.jar
+     sb-kernel-impl.jar --> ORACLE_HOME\lib\sb-kernel-impl.jar
+     sb-kernel-common.jar --> ORACLE_HOME\lib\sb-kernel-common.jar
+     sb-kernel-wls.jar --> ORACLE_HOME\lib\sb-kernel-wls.jar
+     ws-core.jar --> ORACLE_HOME\lib\ws-core.jar
+     com.bea.alsb.alertfwk.jar --> ORACLE_HOME\lib\modules\com.bea.alsb.alertfwk.jar
+     com.bea.alsb.configfwk-wls.jar --> ORACLE_HOME\lib\modules\com.bea.alsb.configfwk-wls.jar
+     com.bea.alsb.owsm.sdkadapter.jar --> ORACLE_HOME\lib\modules\com.bea.alsb.owsm.sdkadapter.jar
+     com.bea.alsb.platform-wls.jar --> ORACLE_HOME\lib\modules\com.bea.alsb.platform-wls.jar
+     com.bea.alsb.platform.jar --> ORACLE_HOME\lib\modules\com.bea.alsb.platform.jar
+     com.bea.alsb.reporting.impl.jar --> ORACLE_HOME\lib\modules\com.bea.alsb.reporting.impl.jar
+     com.bea.alsb.resources.globalsettings.jar --> ORACLE_HOME\lib\modules\com.bea.alsb.resources.globalsettings.jar
+     com.bea.alsb.resources.jca.jar --> ORACLE_HOME\lib\modules\com.bea.alsb.resources.jca.jar
+     com.bea.alsb.resources.xslt.jar --> ORACLE_HOME\lib\modules\com.bea.alsb.resources.xslt.jar
+     com.bea.alsb.resources.xquery.jar --> ORACLE_HOME\lib\modules\com.bea.alsb.resources.xquery.jar
+     com.bea.alsb.security.api.jar --> ORACLE_HOME\lib\modules\com.bea.alsb.security.api.jar
+     com.bea.alsb.security-wls.jar --> ORACLE_HOME\lib\modules\com.bea.alsb.security-wls.jar
+     com.bea.alsb.utils.jar --> ORACLE_HOME\lib\modules\com.bea.alsb.utils.jar
+     com.bea.alsb.wsil.jar --> ORACLE_HOME\lib\modules\com.bea.alsb.wsil.jar
+     com.bea.common.configfwk_1.7.0.0.jar --> ORACLE_HOME\modules\com.bea.common.configfwk_1.7.0.0.jar
+     com.bea.core.xquery.xmlbeans-interop_1.7.0.0.jar --> ORACLE_HOME\modules\com.bea.core.xquery.xmlbeans-interop_1.7.0.0.jar
+     com.bea.wli.core.mflengine_1.6.0.0.jar --> ORACLE_HOME\modules\com.bea.wli.core.mflengine_1.6.0.0.jar
+     alsbcore.jar --> ORACLE_HOME\eclipse150\plugins\com.bea.alsb.core_1.5.0\alsbcore.jar
+     MANIFEST.MF --> ORACLE_HOME\eclipse150\plugins\com.bea.alsb.libs_1.5.0\META-INF\MANIFEST.MF
+     owsmInitializer.ear --> ORACLE_HOME\lib\common\owsmInitializer.ear
+     stage-utils.jar --> ORACLE_HOME\lib\stages\stage-utils.jar
+     sbconsole.jar --> ORACLE_HOME\lib\sbconsoleEar\webapp\WEB-INF\lib\sbconsole.jar
+     jca-binding-osb.jar --> ORACLE_HOME\lib\external\jca-binding-osb.jar
+     DBAdapter.jar --> ORACLE_HOME\lib\external\adapters\DBAdapter.jar
+     fileAdapter.jar --> ORACLE_HOME\lib\external\adapters\fileAdapter.jar
+     ftpAdapter.jar --> ORACLE_HOME\lib\external\adapters\ftpAdapter.jar
+     DbAdapter.rar --> ORACLE_HOME\soa\connectors\DbAdapter.rar
+     FileAdapter.rar --> ORACLE_HOME\soa\connectors\FileAdapter.rar
+     FtpAdapter.rar --> ORACLE_HOME\soa\connectors\FtpAdapter.rar
+     DbAdapter.rar --> ORACLE_HOME\soa\connectors\was\DbAdapter.rar
+     FileAdapter.rar --> ORACLE_HOME\soa\connectors\was\FileAdapter.rar
+     FtpAdapter.rar --> ORACLE_HOME\soa\connectors\was\FtpAdapter.rar
+     salesforce.jar --> ORACLE_HOME\soa\modules\oracle.soa.adapter_11.1.1\salesforce.jar
+     jca-binding-api.jar --> ORACLE_HOME\soa\modules\oracle.soa.adapter_11.1.1\jca-binding-api.jar
+     oracle.soa.common.adapters.jar --> ORACLE_HOME\soa\modules\oracle.soa.common.adapters_11.1.1\oracle.soa.common.adapters.jar
+     client.harvester-osb.jar --> ORACLE_HOME\harvester\client.harvester-osb.jar
+   Patch Location in Inventory:
+     d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\inventory\oneoffs\20423630
+   Patch Location in Storage area:
+     d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\.patch_storage\20423630_Mar_4_2015_23_29_56
+
+
+
+--------------------------------------------------------------------------------
+
+OPatch succeeded.
+
+d:\Oracle\Middleware-11.1.1.7\Oracle_OSB1\OPatch>
